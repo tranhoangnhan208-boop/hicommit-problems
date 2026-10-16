@@ -4,7 +4,7 @@ int main(){
 	if (scanf("%d", &n) ==1);{
 	    if (n % 2 == 0) {
 	        printf("\nla so chan");{
-}       else{
+        else{
 	 printf("\nla so le");
 	}
 }
