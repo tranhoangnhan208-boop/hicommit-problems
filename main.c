@@ -1,12 +1,13 @@
 #include <stdio.h>
-int main(){
-  int n;
-	if (scanf("%d", &n) ==1);{
-	    if (n % 2 == 0) {
-	      else{  printf("\nla so chan");{
-          else{ printf("\nla so le");
-	}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    if(n % 2 == 0){
+   	printf("CHAN");
     }
-              
+    else{
+    printf("LE");
+	} 
   return 0;
 }
