@@ -3,7 +3,7 @@
 int main() {
   int code;
   printf("\nnhan so nguyen:");
-   scanf("%d",&n);
+   scanf("%d",&code);
 switch(xep_loai)
   {
     case 1:
@@ -15,7 +15,7 @@ switch(xep_loai)
     case 4:
       printf("%d",xep_loai_trung_binh); break;
     case 5:
-      printf("%d",Khong_hop_le); break;
+      printf("%d",Khong_hop_le);
   }
   return 0;
 }
