@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int n;
+  int code;
+  printf("\nnhan so nguyen:");
    scanf("%d",&n);
 switch(xep_loai)
   {
