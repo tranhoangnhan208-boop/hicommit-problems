@@ -8,6 +8,8 @@ int main() {
   float BMI;
   BMI = w/(h/100)*(h/100);
   if (BMI 18,5)
-  printf("\nUNDERWEIGHT")
+  printf("\nUNDERWEIGHT");
+  else if (BMI 18,5 <= 25);
+  peintf ("\nNORMAL");
   return 0;
 }
