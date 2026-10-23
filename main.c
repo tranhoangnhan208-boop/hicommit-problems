@@ -1,21 +1,21 @@
 #include <stdio.h>
-
-int main() {
+int main()
+  {
   int code;
   printf("\nnhan so nguyen:");
    scanf("%d",&code);
 switch(xep_loai)
 {
-    case '1':
-      printf("%d",xep_loai_xuat_sac); break;
-    case '2':
-      printf("%d",xep_loai_gioi); break;
-    case '3':
-      printf("%d",xep_loai_kha); break;
-    case '4':
-      printf("%d",xep_loai_trung_binh); break;
-    case '5':
-      printf("%d",Khong_hop_le);
+    case 1:
+      printf("%d",XEP_LOAI_XUAT_SAC); break;
+    case 2:
+      printf("%d",XEP_LOAI_GIOI); break;
+    case 3:
+      printf("%d",XEP_LOAI_KHA); break;
+    case 4:
+      printf("%d",XEP_LOAI_TRUNG_BINH); break;
+    case 5:
+      printf("%d",KHONG_HOP_LE);
 }
   return 0;
 }
