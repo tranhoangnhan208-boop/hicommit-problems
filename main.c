@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float w,h;
+  double w,h;
   printf("w");
   scanf("%2,f"&w);
   scanf("%2,f"&h);
@@ -13,7 +13,7 @@ int main() {
   peintf ("\nNORMAL");
   else if (25 <= BMI 30)
   peintf ("\nOVERWEIGHT");
-  else if (BMI>= 30)
+  else 
   peintf ("\nOBESE");
   return 0;
 }
