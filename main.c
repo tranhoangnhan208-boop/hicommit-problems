@@ -26,7 +26,7 @@ int main() {
   }
   else
    {
-   printf ("FALD"):
+   printf ("FALD");
    }
   
   return 0;
