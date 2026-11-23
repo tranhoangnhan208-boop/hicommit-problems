@@ -16,7 +16,10 @@ int main() {
   {
     printf ("VALID");
   }
-     if (m=2 && y==400 || m=2 && y==4 && y != 100)
+   if (m=2 && y==400 || m=2 && y==4 && y != 100)
+   {
+     printf("VAILD");
+   }
   else
   {
     printf("INVALID");
