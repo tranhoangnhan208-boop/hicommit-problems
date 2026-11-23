@@ -7,11 +7,17 @@ int main() {
     printf ("VALID");
   else if(1<=d<=(m,y))
   {
-    printf ("INVALID");
+    printf ("VALID");
   }
+    return 0;
+   if(1<=d<=5 && d!=2 || 7<=d<=12 && ==2)
   else if(1<=d<=(m,y))
   {
-    printf ("INVALID");
+    printf ("VALID");
+  }
+  else
+  {
+    printf("INVALID");
   }
   return 0;
 }
