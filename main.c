@@ -3,7 +3,7 @@
 int main() {
   int t;
   double d;
-  canf("%lf", %d);
+  scanf("%lf", %d);
     if("d<=1")
     {
      t = d * 15000;
