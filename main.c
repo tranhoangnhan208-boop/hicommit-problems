@@ -2,7 +2,7 @@
 
 int main() {
   int t;
-  float d;
+  double d;
   printf("%d");
     if("d<=1")
     {
