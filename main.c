@@ -8,5 +8,9 @@ int main() {
   {
     printf("FAIL_ATTENDANCE");
   }
+  else 
+  {
+    printf(FALL_SUBJECT);
+  }
   return 0;
 }
