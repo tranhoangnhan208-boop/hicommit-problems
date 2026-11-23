@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float gpa, min;
+  double gpa, min;
   int abs;
   scanf("%f, %f %d", &gpa,min,abs);
   if(abs >3)
@@ -12,7 +12,7 @@ int main() {
   {
     printf("FAIL_SUBJECT");
   }
-  if(gpa>=8.0 && min>=7.0)
+  else if(gpa>=8.0 && min>=7.0)
   {
    printf ("EXCELLENT");
   }
