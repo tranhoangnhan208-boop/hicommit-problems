@@ -12,12 +12,12 @@ int main() {
     printf ("VALID");
   }
     return 0;
-   if(1<=d<=5 && d!=2 || 7<=d<=12 && d==2)
+   if{(1<=d<=5 && d!=2)
+     || (7<=d<=12 && d==2)}
   {
     printf ("VALID");
   }
-   if (m=2 && y==400 
-          || m=2 && y%4 != 0)
+   if (m=2 && y%400 == 0 || m=2 && y%4 == 0 y%100 !=0)
    {
      printf("VAILD");
    }
