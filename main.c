@@ -3,14 +3,14 @@
 int main() {
   double gpa, min;
   int abs;
-  scanf("%lf, %lf %d", &gpa, &min,&abs);
+  scanf("%lf %lf %d", &gpa, &min,&abs);
   if(abs >3)
   {
-    printf("FAIL_ATTENDANCE\n");
+    printf("FAIL_ATTENDANCE");
   }
   else if (min<=4)
   {
-    printf("FAIL_SUBJECT\n");
+    printf("FAIL_SUBJECT");
   }
   else if(gpa>=8.0 && min>=7.0)
   {
