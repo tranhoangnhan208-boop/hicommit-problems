@@ -15,6 +15,7 @@ int main() {
     else if ("d > 5")
     {t = 1 * 15000 + 4 * 13000 + (d - 5)* 11000;
     
-    };
+    }
+    printf("%0.lf", t);
   return 0;
 }
