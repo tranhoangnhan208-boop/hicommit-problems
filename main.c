@@ -10,9 +10,9 @@ int main() {
   }
   else if (min<=4)
   {
-    printf("FALL_SUBJECT");
+    printf("FAIL_SUBJECT");
   }
-  if(gpa>=8.0 && min>=7.0)
+  else if(gpa>=8.0 && min>=7.0)
   {
    printf ("EXCELLENT");
   }
@@ -26,7 +26,7 @@ int main() {
   }
   else
    {
-   printf ("FALD");
+   printf ("FAIL");
    }
   
   return 0;
