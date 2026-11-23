@@ -8,7 +8,7 @@ int main() {
   {
     printf("FAIL_ATTENDANCE");
   }
-  else if (min<=4.0)
+  else if (min<4.0)
   {
     printf("FAIL_SUBJECT");
   }
